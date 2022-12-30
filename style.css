@@ -299,6 +299,7 @@ button {
 /* Skill */
 #skills {
   background-color: var(--color-dark-white);
+  background: url('image/many2.jpg') no-repeat center/cover;
 }
 
 .skillset {
@@ -546,7 +547,6 @@ button {
 .contact__links {
   font-size: var(--font-large);
   margin: 24px 0;
-  transition: all var(--animation-duration) ease-in;
 }
 
 .contact__links i:hover {
