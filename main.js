@@ -15,7 +15,7 @@ document.addEventListener('scroll', () => {
   }
 });
 
-// Handle scrolling when tapping on the navbar menu
+// navbar 메뉴를 누를 때 스크롤 처리
 
 const navbarMenu = document.querySelector('.navbar__menu');
 navbarMenu.addEventListener('click', (event) => {
@@ -29,7 +29,7 @@ navbarMenu.addEventListener('click', (event) => {
   scrollIntoView(link);
 });
 
-// Navbar toggle button for small screen
+// 모바일 화면에서 토글 버튼
 const navbarToggleBtn = document.querySelector('.navbar__toggle-btn');
 navbarToggleBtn.addEventListener('click', () => {
   navbarMenu.classList.toggle('open');
@@ -77,7 +77,7 @@ workBtnContainer.addEventListener('click', (e) => {
     return; // filter가 null이면 아무것도 하지않을것임.
   }
 
-  // Remove selection from the provious item and select the new one
+  // selected add, remove
   const active = document.querySelector('.category__btn.selected');
   active.classList.remove('selected');
   const target =
