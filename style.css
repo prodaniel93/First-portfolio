@@ -1,4 +1,4 @@
-/* Global */
+/* 전역에서 자주 사용할 css를 변수에 담기 */
 :root {
   /* Color */
   --color-white: #ffffff;
@@ -170,8 +170,7 @@ button {
 }
 .home__title {
   padding: 20px;
-  text-shadow: #424241 1px 1px, #777777 0px 0px, #7294c1 -1px 1px,
-    #535353 2px 2px, #5289c1 3px 3px, #7996f0 4px 4px, #353535 5px 5px;
+  text-shadow: #424241 1px 1px, #777777 0px 0px, #7294c1 -1px 1px, #535353 2px 2px, #5289c1 3px 3px, #7996f0 4px 4px, #353535 5px 5px;
   animation-name: titleAni;
   animation-timing-function: ease-in-out;
   animation-duration: 4s;
